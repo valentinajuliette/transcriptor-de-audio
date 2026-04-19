@@ -1,0 +1,572 @@
+[00:00:00]
+Sí, vamos a ver que me voy a intentar, ¿no? Ya, entonces, déjame, ¿qué queráis hacer? Me queráis
+hacer preguntas, ¿qué eres? ¿Qué haces? ¿Qué haces? ¿Qué haces? Sí, ahora estoy grabando. Primero,
+agradecerle por la reunión, nos dieron los contactos como el viernes de la semana pasada. Entonces
+tuvimos poco a tiempo por denarnos y queríamos ir a tener esta reunión. También nos contactamos con
+Guau, que es el grupo universitario de ayuda canina en la USM y por si acaso, más que nada,
+porque... Loto, suerte. Como que al principio dijimos como ya, este proyecto, como podemos hacer que
+sea más entrete, como enfocarlo a las realidades que realmente conocíamos y dijimos fucha, podríamos
+pensando en que el patrocinador es la USM, podríamos enfocarlo en el grupo Guau y en cómo aquí
+gestionan el cuidado comunitario de los perritos. Y de hecho, lo primero que yo les dije a los
+chiquillos fue como yo tengo una foto que siento que es como la base del proyecto y es una foto como
+de un flyer que hay en la universidad que salen las fotos de cada perrito, como con indicaciones. Y
+como este perro, no le gusta el cariño, este perro en la noche como que se pone raro, nos junten al
+ramón con el cabezón y como de las cosas y ya les dije, sería... Sí, sería bacán que eso estuviera
+contenido en una aplicación y lo otro que hablamos fue cómo hacer que esto fuera como más dinamico y
+se nos ocurrió la posibilidad de incluir inteligencia artificial en que por ejemplo tenemos estas
+herramientas como de tensorflow en la que podríamos crear un dataset de cada perrito para que la
+gente después pueda llegar y hacer como, ¡oh, crees lo perrito! y le hace con la cámara y que te
+digan, o sea, esta es la perla, como si le gusta el cariño, ando con hambre, o no le de palma. Sí, o
+no sé, fue esterilizada hace poco así que no le de nada. Mira, año atrás, el grupo que algunos, que
+tenían esa época, uno no era bueno, pero no es importante, yo lo siempre lo recuerdo por los
+dirigentes que está en la cargo, también hay un tenido informático hace mucho años, se aman aquí le,
+y le ponía un blog, y en el blog lo decían, me llamo tanto, me llamo Castila, no me le de mas pal,
+pero no le decían. Entonces también era como ya esto, localmente existe esta necesidad, y yo lo
+persigo, existe todo chillos, hay en la que hay en casa hay un perro que ya los vecinos no han en
+chocomillas aguachado y para una vecina se llama el lindo, para otro vecino se llama el rasca,
+porque de hecho el limpo no es el perro, y a mi perro me retea, yo tengo que pasar con cuidado,
+porque el perro no me quiere mucho, no me muerde, pero me con un día, entonces yo pienso en un top
+por te, y un poco, como yo lo debo, ojalada todos los perros estuvieran en una casa, los perros
+adaptados, sería ideal, pero sinceramente eso no va a pasar, entonces como los perros más se mueven,
+te dicen ya los perros de la ciudad, pero los perros de la ciudad también pueden salir y entonces yo
+me lo imagino como algo que voy a escalar más ya la necesidad de locales de una ciudad, pero tiene
+que ser capaz de responder a la necesidad de locales de la ciudad, así necesitamos plorar las dos
+cosas, en mi visión que insisto no tiene por qué ser con la que se quede, y lo otro que les quería
+comentar es que para la universidad siempre va a ser un tema de decir los perros son
+institucionales, o sea de hecho la universidad siempre va a declarar que los perros son perros
+caljero, lo que los estudiantes de manera autónoma y espontánea, sin patrocínio ni financiamiento
+institucional, por un problema de tenerse responsable, entonces la universidad no puede declarar
+estos perros son de lo que es así, porque si no se quedan con él, sí, y esta historia larga alguna
+vez en esta serie por ejemplo una dirección que fue a dar a todos los perros y se le llevó, y se le
+llevó a un refugio, caminó en otro parte por allá por la alguna vez, así suficientemente lejos como
+que ya no van a volverlo, pero que no volvieron, pero el problema es eso, el tema es que
+inmediatamente entraron otros perros, entonces si aquí tiene abierto el espacio, el ecosistema de
+cargo, el ecosistema de perro lo va a ocupar, y no podemos estar rotando con perros nuevos cada mes,
+o sea imagínense que todos los lunes no lleváramos los perros y por lo tanto todos los más tenés en
+perros desconocidos, no tiene sentido, entonces si hay una comunidad estudial y hay comida, van a
+llegar perros, los mismos presos, también nosotros cuidamos los perros, entonces al final es como
+buscar un equilibrio para que el trato y el cuidado del perro comunitario y colectivo
+
+[00:04:58]
+ser diable, es un poco el perceptivo que yo le daría la aplicación. Nosotros igualicimos como un
+latimiento muy básico de requerimientos, básicamente por el hecho de cuál va a ser el más o menos el
+alcance que queríamos tener que tener la aplicación, teniendo en cuenta que vamos a dejar de
+desarrollar esta aplicación y hablar la aplicación, porque eso se nos explicó en la presentación del
+desafío, y van a tener que irse a preguntarse qué va a dar alguna posibilidad de que esta tecnología
+de aplicación no pueda nutar, quizá una página web, teniendo cuenta que quizás no todos los
+dispositivos, o ejércitos, así que hicimos una aplicación, tendría que ser como piloto para antes.
+Sí, aquí uno tiende a simplificar el lenguaje y decimos la aplicación o no la página. En el sector
+redor está un sistema y va a tener que ser un sistema distribuido, múltiples componentes y si va a
+vender de qué tan ambicioso queda hacer usted en la parte tecnológica, si queremos algo que a una
+escala digamos ciudad nacional, con alguna fiabilidad pueda reconocer un perro que a lo mejor por un
+peso usted que un perro se puede mover. Kilómetros de una tarea y un día a otro puede haber mirado
+20 kilómetros, no queremos que sea acabar de reconocerlo, eso sí o sí va a estar corriendo en alguna
+nube y eventualmente la aplicación es solo la interfaz, móvil o con la cual interactual en usuario.
+Yo le imagino más tipo de aplicación móvil por la simple razón de que si yo quisiera capturar
+imágenes del perro, capturar el adiós perro ahí hay que investigar más, entiendo yo que capturar una
+buena imagen de la nariz del perro una buena aproximación, entiendo, usted tiene que investigarlo.
+El punto es que lo probable es que usted va a usar un terreno, entonces lo que no quita igual el
+teléfono va a tener que estar comunicando según una base de datos actualizada y con un módulo que
+hace el reconocimiento que se no va a poder correr un teléfono y actualmente puede haber una buena
+página web que haga reportería para la computabilidad, digamir antes a los perritos que han sido
+cuidados, ahí habría que ver, pero sí usted tiene un plan de libertad para proponer el uso de
+tecnología en general, allí es una de la aplicación igual de como un mínimo necesario, por el simple
+hecho de que el caso de uso así como el que típico va a ser, o que este perro a ver, a mí así llama
+tanto si lo cuida, o a ver, cuando la hará puesto alguna última de éste perro, entonces que lo
+reconozca y todo, si hay quizá de registrar que lo vacunaba en el año pasado, por ejemplo, o no sé,
+la sumáctema, el perro mordial, tiene vacuna, no tiene vacuna, hace una diferencia de los revistas,
+hace un perro verde a alguien y no se sabe si tiene vacuna, hace un perro para significar, para
+hacerle una biopsy, y si la tiene igual el perro está un problema, pero a lo mejor con buena
+conducta se ve bien, se regabilita, se regabilita, se regabilita porque también lo entendemos que no
+sabamos el tema de la limitación y tampoco el tema de los nombres porque también tenemos que ver por
+ese lado, el tema de la homogeneidad de los nombres, por ejemplo, como bien se mencionaba una cosa
+que oye más chalita y lo lo le dicen a ello, por ejemplo, pero lo que más queremos tocar en realidad
+era como los requerimientos que vamos a tener que buscar de cada perro, por ejemplo, y hace que se
+le entiende que va a ser buscada por imágenes porque son perros filtros, no son perros de raza que
+van a decir, ya es un pul, entonces va a tener que tener como sus características físicas, su
+alimentación, la irritación, el tema de la vacuna, de parasitaciones, estabilizaciones, como todo
+ese tipo de datos al final deberían estar cansado de la aplicación, que nosotros ya lo contemplamos,
+pero solamente para asegurarnos que cumpla con, básicamente, con ustedes, nuestro, para que usan sin
+adecuaciones, como que tenemos un parrocinador, queremos saber más que nada, como cuáles serían los
+requisitos que ustedes dispondrían para que esto sea realmente útil. Ya, le recuerdo de que la, yo
+soy en este caso, el parrocinador de la idea, si usted que hay un incentivo de que está a esta idea,
+que yo siempre sé como ejemplo, entonces para como voy, estábamos armando los paquetes para la feria
+software y queremos proyectos que tengan la potencial también de ser buenas noticias, ser vistosos,
+de todos los perros, una, hay una necesidad real en la ser, entonces ya, entonces tenemos el caso
+clínico, son los mismos perros de la ser, ¿qué se necesita saber de un perro para
+
+[00:09:57]
+su cuidado con el activo? Yo tengo una idea, quizá general, baga, ingenua, o sea, yo me preguntaría,
+pensamos de los perros en la calle, o sea, a este perro, ¿dónde come? Entonces, no, tal vez si no le
+pones un plato y tres cuadras me da ya, no me le pones un plato, entonces, ah, yo no lo voy a poner
+en un plato, porque ya está comiendo dos, tres veces, ¿dónde se hidratan? Nunca me lo pregunté, ¿por
+qué yo estoy haciendo con los perros de la calle y tienen nada, como no están confinados? En contra
+de las botancias. Claro, o sea, si tienes el pao caraba, no hay por causa, pero sí, por ejemplo, las
+vacunas, yo creo que eso es como bien crítico en los perros de la calle, porque yo podría decir, ah,
+¿sabes qué? Yo voy a alguna de este perro que siempre pasa por fuera de mi casa y voy a ir a alguna,
+y a lo mejor soy el cuarto que le está poniendo en la misma vacuna y termina con trombosis.
+Entonces, yo creo que hay que tener, ya, necesidades bien básicas de un perro que está en la calle,
+como la alimentación, y el historial clínico básico, sobre todo con el tema de las vacunas y otras
+cosas que pueden ser importantes, como desparacitados, por ejemplo. Entonces, y lo que yo creo es
+que los requerimientos concretos, hay que levantarlos con guau, ¿cuándo se han jugado? No, hay que
+levantarlos con guau que tienen ellos, no lo vieron así de fuera, cuidan estos perros. Entonces, sí,
+yo estoy seguro que ellos te van a decir de repente, mira, hay dos, cuatro, cinco cosas críticas,
+claro. Por otro lado, como el caso de guau trabaja con un grupo para empezar, guau es un grupo
+organizado, yo la idea original de la aplicación apuntaba más a poder permitir que gente no
+organizada, se se coordinara de manera espontánea autónoma. De hecho, una de las definiciones del
+proyecto en los ejemplos, cuando yo lo sé como ejemplo, no sé cómo ustedes toquen una signatura, yo
+no sé por ejemplo, la instrucción de ingeniería. Claro, pero no es la única signatura de lo que los
+hago, ¿cuándo? La instrucción de ingeniería lo planteamos como la red social para el cuidado de
+perro en situación de calle donde en el fondo era como mira, en vez de que la gente se pueda seguir
+o solicitar a mi estar con una red social clásica, aquí la gente solo queda vinculada, si es que
+siguen o declaran entre y cuidan al mismo perro. Entonces, que existe como una geolocalización que
+permita como organizar. Claro, o sea, si la persona dice, mira, aquí está el chasca, y lo tengo una
+foto y al chasca ahí no comer, pues le tomo otro foto, oye, voy a despara citar el chasca, y estoy
+poniendo la pipeta, así que, y eso lo reporta, entonces, otras personas que a lo mejor no lo conocen
+como el chasca, pero que, y a otras personas van a aparecer después en su notificación, el rambo,
+acá el chasca, y bueno, esto es que las personas tenden, ah mira, tiene cuatro puntios para que se
+la dónde ponen de acuerdo con un hombre, pero creo que esto yo lo he visto, ¿sabá? El mismo por lo
+que le doy, hay una señora que no, se llama lindo, yo creo que hay uno que no, se llama chasca, y en
+el caso, tienen los dos, y esos que esos son vecinos, o sea, podrían perfectamente hacerse cuando
+estoy poniendo un humor. Entonces, pero en el fondo, que si por ese motivo, cuatro cuadras más allá,
+alguien le hizo algo al perro, hay a forma de que otra persona se tere para que, por ejemplo, decida
+que esa acción de cuidar en vez de ella, en vez de parasitar, voy a, creo que voy a levele alguna,
+acá es la sede, yo pienso que lo estudiante tenga la posibilidad, por ejemplo, de interpretar con
+los perros y ver a ver sus historiales, ver sus las negras en todo el perro, pero hace un poco más
+lúdico, quizás no va a ser tan práctico en el sentido de solucionando un problema con qué tal,
+porque igual es un grupo sexualizado, y como son los únicos que cuidan a estos perros, pero el
+ejemplo de esos problemas es que las que te letaban, pero en el álcool, el único que le va a poner
+una es para cidad, y tienes que postar con los perros todos los días. Entonces, me imagino que la
+necesidad de un barrio de una ciudad podría ser distinta que la necesidad de esto la se ve, pero por
+otro lado, si esto funciona dentro de la cidad, se puede estar aguantando. Entonces, como pensando
+desde el patrocínio, estarían de acuerdo con que nuestro producto mínimo viable fuera aquí en la
+sede. Totalmente, o sea, yo detecto que es solo tengo una idea que me dima huerto, y así, aquí es la
+recopía, no, no, no es un producto protegible de por sí, no puedo decir a esta idea mía, porque yo
+la dije un nivel, o sea, estoy seguro que de haber otra persona que la mía me la dijo y que si no la
+hizo, igual te dueño que yo
+
+[00:14:55]
+que lo hubo que nada. Por lo tanto, usted puede tomar una idea y ahora agroviársela. Este es un
+proyecto que difícilmente va a tener fines de lucro como un odiar tenido, o sea, como un proyecto
+que estaba en empresa particular, pero yo creo que un proyecto que si se le busca la sede le da, le
+ofrece algo concreto y práctico y la posibilidad de usuarios dentro de la sede es entusiable. Es un
+proyecto que va de mucho voto del público sin funcionar y si el día de la feria la gente lo voy a
+descargar y hoy mira, reconoció el perrito, reconoció el ramón y me dice que el ramón tal cosa, esto
+es como a tener que secuestrar ese perro hacia anterior, como tener que tener un perrito a la sede,
+yo traigo la mamada. El final, imagínense que hace un año atrás la gente salió en masa a buscar
+pokémonos que no existía. Yo soy el cliente. También lo pueden gamir filones, eso es muy bonito, a
+lo mejor. El llegar a la acción de culdado del perro puede ser una segunda derivada de algo que
+parte maldúbico, o puede venirse de lleno a militantes y no el cuidado del perro animalista. También
+están sistemas como la ley de tenerse reposable en los chis, entonces aquí este proyecto tiene que
+buscar ahí el revedad por el filo político, yo estoy idea, la hemos tenido con un discurso del
+estilo mirado, no todos los perros van a tener en chis, independiente que quisiera vamos a empezar,
+quisieron que todos los perros fueron adoptados, la ley habla de un ideal, todos los perros tienen
+alguien que reposable de él, y desconoce que existen los perros a sirve extra, existen los perros en
+la ciudad, existen los perros, vamos a decir en situación de calle, yo hasta en el ejemplo, hasta
+eso es el femismo, cuando los usan clases, estos perros, nosotros no decimos perros callejeros
+porque intuínsicamente no lo son, son perros de la situación de calle, por favor entiendan lo que yo
+hay a sus personajes y en el fondo yo no soy un militante, me agonimos como le llamó los perros,
+pero cuando doy el ejemplo otro de expresando como lo haría una organización militante animalista,
+ya, si ustedes lo quieren hacer más militante en términos de el cuidado del perro, la derecho del
+perro, vamos por ese camino, si lo quieren hacer más lúdico, vamos por ese camino, cualquiera los
+dos caminos pueden converger en algo que se usan así, si esto no se usa masivamente, si cada vez que
+lo uso, soy el primero que registró este perro y nunca hay información previa, y todos los perros, o
+sea como tengo cuatro perros de repartidos por todo Chile, no sirve nada, también tienen la
+justificación de decir, voy a inventar una forma de asegurarme que mucha gente esté registrado con
+los perros, después va a salir a alguien y les va a pasar, usted lo hace con el mejor de la
+intención, ya alguien va a decir no, esto es una trampa, no van a ser que hagamos una base, todos
+los perros, para que después el gobierno nos pueda salir a buscar, entonces, ya, pero por otro lado,
+¿qué hacemos? ¿qué hacemos con todos los perros en la mente? Pensábamos hacer un foco de grupos con
+los de huevos, todo ya estarán, pero ya no sé, ya que no está, todo eso, es un contacto que yo, como
+el cambio, yo tengo un pacto, yo creo que una gabaría es la afuera que es medio, una nativa de este
+año, sí, si me dijo para pensar, sí, y unis, y unis es lo que nos queda, y de hecho, o sea, el grupo
+perro uno tiene un historial largo de dirigerte a sí, y activos, entonces puede ser acto una
+oportunidad como ocultando y ver, yo creo que la idea de escalar lo más allá de la CD es importante
+de este proyecto, lo que no significa que el producto mínimo y algo de idea no cuesta
+superfocalizaban las cosas locales de la CD, pero el discurso, este es un proyecto que yo creo que
+tiene mucho potencial de ser noticia futura, o sea, podría ser que, por ejemplo, la universidad le
+podría interesar ser el patrocinador que pone el servicio a la comunidad para el cuidado de perros
+en situación de calle, lo podemos articular como un bien público que es un espinado de la
+universidad, yo me imagino que eso pasa mucho en estos ámbitos, un proyecto comunitario como esto,
+igual tiene que ser desarrollado por un equipo, si después ese equipo aprovecha
+
+[00:19:55]
+el impulso y se constituye como empresa, y ofrece servicio en el ámbito, en el desarrollo de
+sistemas, pero con las perspectivas que tienen en el geolocalización, todo eso está superfocal, no
+entiendo, o sea, da para una expectativa futura, pero en el corto caso, el imediatur proyecto lo
+hace comunitario, pero a la institución le podría dar mis similidad positiva, y eso crea que lo
+necesitamos, lo universidad, uno de los problemas que tienes que salirmos poco, y cuando salimos son
+ese por... para que voy a dar ejemplo, entonces necesitamos un noticia positiva, eso es como lo que
+la universidad ganan esto, además de que hay una mejor cuidado de sus perros locales, pero la
+universidad dice, estos perros no son míos, para aquí, que no es lo mismo, consulta, la universidad
+como patrocinador tiene recursos predispuestos para este proyecto. Todos los proyectos de ferio de
+software pueden optar a solicitar recursos para algunos cartón menores, por ejemplo, licencias de
+tecnología, si es importante que primero se de evidencia, que se buscó soluciones a otros sols
+liberadas, y en el fondo demostrar como al menos evidencial, que ya se agotó el espacio de
+soluciones gratuitos, y en ese caso le hacemos una solicitud a la jefa carrera para darle un
+ejemplo, un proyecto financió la descarga de datos meteorológicos, de partes regiones de Chile, y
+descargó en tu una licencia activa por dos meses para descargar un montón de distorsión, ese fue
+algo perdido, correcto, y algún otro costo similar, otro proyecto ha tenido, pero siempre son
+licencias, realmente, hay necesito que alguien ponga su tarjeta de crédito, y directamente lo calme,
+ya eso lo vamos a conseguir, se me dice no, tenemos que compro un servidor, eso lo vamos a
+conseguir, pero sí podemos conseguir licencia para un nuevo, pero con gasto en ese caso se recibe el
+interrumpo, por ejemplo, se está ahora preguntando, o sea, poniendo en la mesa la posibilidad de que
+esta aplicación se accesible por temas de descargada libre en ese sentido, o sea, igual son muy
+prometedores y me encanta mucho la idea de que el proyecto, o sea la fría superpodamos decir así,
+buscala por la app store y puedes descargarla, pero eso también tiene que ver con temas legales,
+esos temas legales, dentro de esa financiación? o sea, costos de... habría que ser muy necesario,
+pero usted, por ejemplo, una aplicación la pueden poner disponible, no sólo a través del app store,
+o sea, pueden poner la disponible directamente, por ejemplo, el uso en lugar local y permitir que la
+descarga, si es que llegas en necesario, a lo mejor también esto puede ser una buena responsiva,
+también podría cumplir el pero creo que una aplicación moderna, en este caso me diga más, habría que
+ver, habría que ver, si de verdad por alguna razón no hay forma de poner la disponible, que no sea a
+través de un app store que nos va a cobrar, o sea, habría que ver cuál es ese costo perfecto de la
+feria? igual, según yo, apps store como de Google no te cobran, te cobran ápil, o sea, así pero vale
+que ver el tema legales de la empresa, porque hace poco se ponen el dinero de que empresas índices,
+o como no vienes pículas, tienen que ser una empresa pículada con domínia, con todo, para poder
+subir aplicaciones a apps store, como que no puede ser un usuario a lo mismo subir y llegar... igual
+yo tengo dos amigos que han subido aplicaciones a apps store y a la delega, pero también, entonces
+ahí podemos averiguar bien que onda, pero bien, evalvemos eso, en la medida que vayamos en santo, la
+intención del fondo, el que se gaste, todo lo que se puede hacer gratis, se tiene que hacer gratis,
+y si se requiere alguna, por ejemplo, acceso a la base de toque es de pago, se puede, pero tenemos
+que pedirlo, eventualmente podría ser que no tigas uno de los guía platas, eso también puede pasar,
+no le puedo decir que está gratisado, pero si lo puedo decir que a mi anterior es lograr financiar
+cosas así, nunca sé que yo sé, van, nunca sé financiado la instalación en un apps store, lo que no
+quita que a lo mejor podía hacer el primer caso que se haga así es que si es que amerita, eso,
+solo... lo sé que no, igualmente no nos presentamos, pero al final definimos el nombre de los
+Griguimos como Olida Semina, Unito Semino, sé. Patitas, patitas, patitas, patitas, patitas, patitas,
+patitas, patitas, patitas, patitas, patitas, patitas.
+
+[00:24:54]
+Ahí está, hemos dicho nombre de ti y queremos preguntar más que nada en libertades, ya sea
+artísticas y técnicas que tenemos para hablar el desarrollo del Prixto, como usted dice, un proyecto
+que va bastante a la libertad, como imaginativa, en ese sentido, teníamos como una coopereta de
+nombre para la aplicación que sería hua, hua, hua, hua, hua, hua. Y lo otro es que si queríamos, si
+es que esta aplicación, como en nuestra patrocinada, los llamadores de la Universidad, tendríamos
+como que ligarnos a la, por ejemplo, la paleta de colores que tiene la Universidad, o podríamos
+variar un poco más y hacer un poco más amigable con no tantos colores gestraendosos, como tiene,
+¿verdad? No, no, o sea, yo creo que usted tiene un penal y libertad itorial en todo ese tema y en
+general en el proyecto, porque vuelva a decir, o sea, ¿qué es lo que objetivamente se les ha
+entregado? Un idea muy amplia que se puede interpretar de distintas formas. Entonces, nadie tiene
+aquí que yo ser para la autoridad, si les no, que ustedes están trabajando sobre este trazado. Yo
+sí, esperaría, la Universidad pueda permanecer ligada en este proyecto en el futuro. Y ojo que nos
+le estamos viendo, filmando contato ni nada por el estilo, o sea, si usted es un año más me dice,
+oye, con el cartón, le deja ahí, ojo. Es probablemente legalmente no vamos a tener muchos que hacer
+el respecto, pero por otro lado, soy de las personas que creen que nunca hay que tratar de defender
+antes de tener ni siquiera un mínimo. Entonces, el proyecto es de usted. Por lo tanto, hagan con la
+valeta de colores lo que estimen. En el futuro, cuando esto sea un éxito, perfectamente podría haber
+un banner de la Universidad, así como este proyecto, además de la Universidad podría haber llegado a
+ese punto tan interesada en participar en la puesta en operación. A lo que no me ha mencionado,
+supongamos que en la feria software, usted tiene un mínimo viable que decimos esto realmente. Usted
+y nosotros, la Universidad decimos esto en un atremento oportunidad, tiene muy buena prensa. La
+Universidad por lo tanto, no puede exhibir como un resultado de la vinculación con el medio, el
+desarrollo tecnológico. Ojo, llegado a ese punto, lo mismo. Oye, yo no necesito poner mi currículo
+normalizado que este proyecto se origina y que yo durante este año os parten del equipo que lo
+perfiló a lo menos, porque la Universidad me valúa por todas estas cosas. Ya, entonces, a lo mejor,
+¿quién va a financiar la operación? Por ejemplo, alguno de ustedes podría a lo mejor hacer la
+práctica en ese punto. Entonces, después de noviembre, la feria software, puede haber dos meses más
+de trabajo en donde a lo mejor están haciendo la práctica. Y la práctica la hacen dentro, aquí
+buscaríamos que unidad de la Universidad, pero yo me imagino que esto podría ser de interés de la,
+por ejemplo, de la dirección de comunicación. Entonces, hoy dirección de comunicaciones, ¿qué te
+parece si se monta este proyecto? Ya está dando prensa, entonces, y los mismos informáticos que lo
+desarrollaron, ahora lo ponen en operación como práctica. Unidad de tecnología, aloja a menar una de
+tus mues para que pueda existir y lo podamos salir a ofrecer. Ahí la Universidad, decir ya, pero que
+esté el válner. A lo mejor es decir, ya, pero soy que la planeta de colores y eso es negociable.
+Oye, pero es que es una aplicación, con otros fines, que la Universidad ofrece, pero la Universidad
+de Florida es dueña de gastroes. ¿No son saguenes? Sí. Sí, es que sí es pesado como que la changas.
+Lo que no significa que guay esto no es tengo que tener la Paleta de Colores de la Universidad
+Florida, pero este es una cosa diferente. Entonces, esto podría en el futuro ser como un spin-off.
+La propiedad, yo creo que llegado a ese punto, se conversará en el fondo los que lo desarrollaron,
+obviamente, que tienen que participar de eso, y los que los obtengan sus servidores y lo mantengan
+en el tiempo para que sea un servicio que pueda excreciendo. Ahí, donde entró el rol de la
+Universidad, puede tener ahí una Universidad. Plata de esto crea que no has pero nunca. Lo que has
+pero sí es posicionamiento, visibilidad. Y este tipo de proyecto, ustedes son el último persona que
+pueden ofrecerle a su Universidad. Sobre la libertad que tenemos, tenemos también libertad como, por
+ejemplo, para buscar colaboraciones externas. Por ejemplo, yo pensando en quienes podrían estar
+interesados quizás como en financiar ciertas cosas o en pensando en que en la freezo guard tenemos
+que al mucho regalo, como ese tipo de cosas. Puede que la quede andar marcas de cosas para perder.
+Ahí podemos hablarle como... Obviamente, o sea, el a ver. La feria tiene una política de auspicios
+por si hay una empresa que quiere, por ejemplo, financiar premios para el estudiante. O sea, mira,
+yo voy a financiar el premio,
+
+[00:29:53]
+o voy a inventar algo, o sea, premiente, lo premio Juan y que va a estar incluido dentro de las
+categorías de la feria. Hasta ahora, de hecho, no va a saber. Escolla va a financiar si hubo por
+algunos años y solamente se va a ver esos premios casas extrañas. No alcanzó 8, me han estado en ese
+premio, que ya estaba de antes de todo caso. Y actualmente, no hay ningún patrocinador así. Si
+alguna empresa quiere poner plata, lo podemos poner en la barilla, lo podemos poner en la web, hacer
+mención, nosotros preocupando o demensionando, tenemos notas de prensa, todo eso estaba... y lo
+tenemos titulado, ahí hay una estalifa y agarculada, pero la plan básica de un millón de besos.
+Entonces, mira, un millón de besos que a lo mejor se traduce en uno, dos premios que se distribuyen
+en los campos y se le permiten posicionamiento en toda la actividad de la feria. La feria, por
+cierto, no es crucial del niño, ¿sabes? O sea, trabal para eso, salte a un niño. Otra cosa es que un
+pequeño comercio de comida canina senta la con ustedes en el stand y ofrece regalos para el público,
+y ustedes incluyen su propia pavelería. Eso ya este me gusté, no es problema. Nosotros no lo vamos a
+bloquear. El año anterior es por decir, la empresa que era chilquinta, chilquinta, trajo,
+merchandising de chilquinta, otra empresa que era de actividad de turismo, actividad de trabajo, por
+ejemplo, trajo espanada y repartió en panada. Entonces, de hecho, se equivo a ganar la feria. Ahora
+vamos a hacer en panada. El proyecto de trabajo, llamada como bien asociaba a una bolsa de trabajo
+para estudiar, tímico de trabajo, entonces configuraron como trabajo, repartir las espanadas.
+¿Cualmente que las empanadas se repartieron rápidamente? Sí, es que yo estoy pensando como en la
+feria software como tal. Como es un que la gente quiera realmente recargar una aplicación para cinco
+minutos. Entonces, yo estaba pensando en el rote por uno. Sí, pero además podríamos conseguir una
+marca que nos dé un premio de tecnología, lo que sea, que sea así como nos llevamos a sortear una
+tablet. Vamos a sortear tal cosa, entre la gente que descarga la aplicación. Eso se puede o es muy
+legal. ¡No! Esto puede comentar el que ya, porque el que empieza a reconocer más perrito y lo va
+añadiendo, digamos, la cita, para aparte distender en los trabajos de datos podrían ser como si se
+ganan. Podríamos ser el que tenga más puntos de la gamificación de la aplicación ese día. Sí, como
+bien. Sí, creo. Yo no veo un proyecto que podría decir, si ya un equipo regaló en panadas. Sí,
+claro. En el marco de la puesta en escena de su... Un desumayecto, yo no veo que estén violando
+ninguna regla. Y a nosotros, la feria es una fiesta. Esto no es una competencia límpica, esto es una
+fiesta. Entonces, cualquier cosa que haya entretenido la fiesta, la competencia también es parte de
+la fiesta. Por cualquier cosa que haya entretenido, no sea ya muy deléal y en serio. Claro, por
+ejemplo, no es capasado, pero hacer el sabotaje a la obligación de ser mío a la obligación de nada.
+Claro. Pero en general, sí, se puede hacer cosas. De hecho, eso es lo otro. Tú es tan consciente que
+nosotros, me refiero a la carrera, a la universidad, a sus profesores, somos los menos aptos para
+salir a hacer articulación, vinculación de tu cuerpo. Si usted es la buena, hacer mejor que
+nosotros, por favor, no es nada. No, no, no, no, no. Oigan, cómo es eso tanto en el work here. Agató
+el que pone. Muy bien. ¡Seguen! Es algo que incluso estamos... Veo una terinaia para sociarras. De
+hecho, yo creo que también deberíamos tener algún... Sí, como plan médico, alguien especialista en
+terinaia que nos respaldes. También, a mí, yo está pensando, si es un premio para las peleas de
+software y por... dando por ejemplo, en mi casa tengo una perrita que llamo una terinaia para que la
+baña. Pues soy como un baño. Oh, y hay una cosa. Una cosa. Una cosa. Una cosa. ¿Qué es eso? ¿Qué es
+eso? ¿Qué es eso? ¿Qué es eso? ¿Qué es eso? ¿Qué es? ¿Qué es? ¿Qué es eso? ¿Qué es eso? Hay... Hata
+por oportunidad y yo no estaba en source. La escuela debe terinaia. Aquí mismo están las anotomadas
+cercan. Ellos, entre como actividad, practicación, petición, esto como operativos.
+
+[00:34:52]
+Y van por los barrios y hacen operativos de vacunación o operativa. Y probablemente también tienen
+el problema de... Sí, y seguramente hay gente entusiata de los estudiantes de la escuela de terinaia
+que deben ver... ¿Qué deben ver el problema de hoy? Yo... No sé, pues... Hicen durante dos meses
+acciones en más de 100 perros. ¿Y cómo le llevo otras habilidades? Todo lo que dice. ¡Ah, ya! Aquí
+en los perros deberían tener chips. Ya, pero no siempre tienen chips. El chip se puede sacar. En
+cambio, el perro no es caso. El perro... Es reconocible por su cara, por su nariz, por su ladrido y
+va a seguir siendo reconocible. Con cierta fiabilidad. El chip en cambio se puede perder. Entonces,
+de repente, también... ...contactar a los que hacen estos operativos que también son voluntariados.
+Y si bien, no salían una aplicación que les permita y que vaya aportando para que el fondo del
+voluntario se extienda y que estos mismos equipos que hacen voluntariados, los mismos guau,
+probablemente, cuando lo hacen más allá de la frontera en la CD, a veces debes pasar que terminan
+atendiendo perros que también en los grupos están atendiendo a los barcos. Entonces, buscar esa
+como... ¿A quién? Aquí les podemos conectar que información acerca de la cuidación que se le está
+dando a un perro particular les puede interesar y que si no, a través de esto, no se conoce. Yo creo
+que tengo contacto por los... No, en aquí está Zato Tomá. En primer año había una chica que se llama
+Tierra y se cambia de informática a Veterinaria, a alguien de Zato Tomá. Y creo que el llama todavía
+de la Tierra Tomá. Creo. ¿Puedes recordar que está? ¿Ves? Por eso. Lo de que yo también quiero
+preguntar es que, por ejemplo, para este hirnos, nos llamamos nuestra primera presentación del hito
+una o de esta... ...de esta proyecto y nos pidan, por ejemplo, ¿qué es lo que realmente... ...no
+deberíamos abarcar el hito así como... ...porque igual sí, podemos hablar mucho de que podamos hacer
+esto, podamos hacer esto otro pero, quizá, en algún punto, tendremos que acotarlo por el tiempo y el
+desarrollo del proyecto. Claro. Mira, yo... A ver, va a ver... Y ahí, yo te conozco el grado de
+madurez de la tecnología para el reconocimiento indigundropero. ¿Cómo funciona con el reconocimiento
+facial? Lo algoritmo toma algunos puntos de control y traducen la posición de estos hito, estas
+marcas, lo traducen a un vector numérico y, por lo tanto, ahora yo puedo guardar una cara en una
+base de auto, por ejemplo, en un arbol dinario de búsqueda y, por lo tanto, cada vez que la cámara
+está captando esta cara que se traduce a este número, otro romp puede hacer el match. En tiempo...
+En tiempo rápido, en tiempo real. Imagínese que el asunto fuera que la tecnología permitiera decir
+si esta cara es o no esta otra cara. En ese caso, en una base de datos donde murió el Playback de
+Perros, yo podría hacer la comparación, este perro. Si no es el ramón, si no es el este, si no, con
+el Godzilla ya no. Entonces, también te lo voy a encontrar o voy a haber recorriado la lista
+completa y voy a haber dicho, no está. Por lo tanto, a nivel local, una búsqueda, con esa
+estrategia, se puede, pero a no es que lo quiero para los... el millón de perros que bien y el gran
+paraíso. O los 30 millones de perros que bienen Chile. Y que están en situación de calle. Entonces,
+tenemos como traducir, entiendo y eso lo leí, muy así a la pasada, hace unos tres, cuatro, cinco
+años, que hablaban de... digamos, de un lado en la fresa, pero que era la nariz del perrito. Y que
+esa tiene las características, y que se está allá como haciendo el... el tratarla, igual que una
+huella digital, que no fue lo mismo que el reconocimiento facial. Traducirla a un número de marcas,
+que se puede contextualizar un número para que eso sea de búsqueda rápida. Entonces, yo sé, de hoy
+día, con tecnología básica, podemos tomar las fotos de los perros y decidir si es o no es el mismo
+perro con un nivel de fiabilidad importante. Pero... Entonces, yo averiguaria eso. Antes de prometer
+que esto es capaz de reconocer al perro, a un contacto de toda la ciudad, vería en qué estado está
+el... Claro, tengo energía. Sí, de hecho, de base, queríamos, en vez de... porque laía todavía se
+está conversando, no es algo que realmente van a decir, si lo vamos atentando, pero venía, si no hay
+que dejar lo que estamos en la violación, averiguación. Lo primero que hace una vez, es que en el
+estado del perro, es como que puedan ser reconocidos
+
+[00:39:51]
+a través de una búsqueda normal. Y ya habiendo también como terminado, no viste la moderación de la
+tecnología, a ver si se puede implementarnos. Claro. Obviamente facilitaría mucho, mucho, mucho la
+búsqueda de perros, porque imagínense que a quien pase de la hay, o sea, 20 perro, igual, en un
+celular que es un dispositivo un poco pequeño, es difícil ver uno a uno. Sí, pero... Pero... ahí es
+donde eso puedo operar en una lube, y no tiene que estar en celular. O sea, lo que yo haría en este
+caso es, capturar un imagen del perro, o que puede ser atompidado en el perro, y pero ya, es un
+gano, cuando tengo que tomar una foto del perro, y mandarlo como recuerdes, a un módulo, que lo
+contrate contra la base de datos de perros que ya tenemos. Que haga solo esa mancha. Eso se puede
+hacer. Vale la pena hacer eso a otra cosa. Es un cuyo. Idealmente sería un cuyo, porque en un mundo
+tan chico como este, de cuartos, pero estamos hablando dentro de nosotros. Entonces sería como un
+produtipo de juguete para algo que... Claro, claro. Pero por otro lado, ustedes lo pueden focar
+completamente las necesidades operacionales del perro, son del reconocimiento del perro y ya lo
+pueden dar por como... el acorte del ser humano, no la miraste. Igual, uno podría besar en cómo
+escalar eso, porque, cuando yo veo un perro en la calle, no es que tenga que contratarlo con todos
+los 30 millones de perros de chicas, sino que a lo mejor lo tengo todo. Ah, mira, por las
+localizaciones geográficas, estos son los perros que tengo registrado alrededor. Esto sea, no, este
+es. Y también puede resultar así, o sea, lo... Yo creo que hoy en día sí, el público, como que tiene
+que esperar, que estas cosas la llaman a ella. Sí, sí. Vivo en la... Estamos ahí a Titis, pero...
+Ya, ahí ustedes lo alúenlo, pero eso podría, efectivamente estar dentro de lo que declaren fuera la
+alcance. Tengo como... escalarlo, la pueden dejarlo prediseñado, escalar, pero declarar dentro de la
+chá. El niño voy a hablar, se va a enfocar, en ofrecer mejor vida a los perros o voy a ir a
+interacción a los perros comunitarios de niño. Es que la de la serie. Nos habíamos pletado a esa
+mujer, porque como nos habíamos tenido esta reunión, también nos habíamos pido la posibilidad de que
+quizás que la alcance del proyecto no iba a ser la universidad, sino que iba a ser como una
+comunidad barreal de serro, de... de los... en ese efecto, el hecho de... normalmente la gente que
+cuida ese tipo de perros que están en situación del ayer, es gente de la medianada o adultos mayores
+que realmente no están muy... como... conectados, familiarizados con la tecnología. Entonces, claro,
+o para una persona de ese perfil, era... no sé si es necesario, pero era más óptimo que la persona
+pudiera sacarle una foto y recibir enseguir la información del perro que está buscando en un punto
+específico. O sea, al final... ¿Cuál es la... el... hoy día en la serie ustedes pueden delimitar la
+serie, decir, hasta aquí termina y los parros que están adentro, son los que están registrados por
+el grupo WOW y... existe como una claridad. Si ustedes dijeron ya esto, lo voy a hacer a nivel
+barreal, el problema que tienes es que... no hay un lugar con el barrio termina, sino que siempre un
+continuo. Entonces... de la barrio. Al rededor de mi casa, hay tantos perros, pero... y... al
+rededor de... 24 horas más allá... y... y... nunca hay un espacio, digamos, ya... hasta aquí
+llega... hasta aquí llega la... la jurisdicción de esta aplicación y va encima de los perros o más y
+por todo el lado. Sí, sí. Entonces... para llevarlo a una escala ciudad, yo creo que va a ser... ahí
+tiene que ser capa... bueno, va a caer la redundancia... de escalar... pero lo va a ser de esta
+forma. El reporte rango deario yo no me preocuparía tanto porque... todo está... el mundo
+dinámico... yo creo que no me lo crea... va a llegar el bien que usted va a ser la salida de esta
+aplicación y para entonces... va a estar ya... ustedes ya son nativos digitales. Entonces... y los
+próximos que la van a estar usando esta aplicación... vamos a hacer la generación mía. No sé, pues
+20 años más... voy a estar entrando a retiro... y voy a hacer yo el viejo maño o que está... de los
+perros... no le recogieron la caja... pero yo, por último, ya... pasé la barrera... no siento
+nativo... no siento nativo digital... estoy en esa generación perdida que yo entre medio... que...
+es analogada y digital a mismo tiempo. Entonces... y... y la... creo que... el mundo se hace cargo
+de... de... de filtrar... de manera natural... a... a ese grupo que definitivamente nunca lo va a
+usar porque es una aplicación. Y a ese grupo no tiene como barralco... y no le importa... porque...
+no... digamos que no tiene tanta proyección a futuro. De acuerdo de eso... ¿sabes que vienes
+siguiendo? ¿Qué hago? ¿Es la compensada de eso?
+
+[00:44:54]
+Me gusta. Ay, ay. Es que... es que... es que... es que la va a estar... ¿vale? Bueno yo por a ver,
+no tengo más preguntas... sin que se manquea algo... u a mí que me puedo soltar algunas cosas. ¿Y
+qué tengo el tema de la IA? Tenemos que entrenarla a IA... y eso significaría... mucho recurso ya
+sea... ya sabéis... venemos que vayamos a consultar si es que, por ejemplo, no tiendamos acceso a...
+aquí... la Google o con botadores nuevos que están en las a las nuevas que se venen. La que... los
+botentes... o si no, no. Tenemos, en caso de que necesiten GPU, tenemos servidores con GPU y además
+se compró un laboratorio, que no sé si ya está en proyecto, pero uno de los laboratorios va a ser
+con GPU y talada en la estación de trabajo, pero va a ser un laboratorio, y además tenemos un par de
+servidores, un par de servidores distintos, o sea, en más de uno, para ver esto de investigación de
+todo tipo, entonces, hay que coordinarse... Si no, cuando lo necesiten, una opción con un
+administrador de su servidores es la polega que se llama Genin, que está dando algunos electivos,
+entonces... Ya, ahí entonces lo tienen directo porque hay algunos de esos servidores, y otros de
+esos servidores están en la sala de servidores de la carrera, o sea, en la área de informática, y es
+cosa de conseguir el espacio con Rodrigo, o con Christian y se organizan. Me dicen a mí, yo les
+ayudo, no soy lo mismo, no pido, ¿qué no a gente? ahí, no van a informar a algunos protocolos, que
+ustedes tienen que avisar, que van a ser experimentos entre el laboratorio y el tarrolario, se
+poniendo que hagan negría, porque lo que tenías que tener en este caso pienso yo hago
+reconocimiento, ahora, va a depender, porque si ustedes ahora valúan que este tema de tomar una foto
+en la nariz y lograr que eso se transforme en un número, hasta superviéndose arrollado, una, eso va
+a ser un modelo que ya viene entrenado, entonces no no necesitan entrenar, lo podrían hacer el
+sonreacusto, o sea, crearlos hasta hacer las pruebas. Pero es muy probable que eso no requiera tanto
+con puto, lo entiende porque en el fondo alguien ya hizo el trabajo de tomar una gran base de a tu
+perro y entrenar para que traduzca a un número, una fue una imagen de la nariz. Si eso fuera así, yo
+me iría por ese camino, o una explicación que aprovecha eso, lo transforme en un número y a partir
+de ahí, es una base de datos, y así relacionado, pero probablemente si una explicación móvil
+prefiero hacer un no se huele ahí, usted le sea. Lo otro es que tenemos una explicación, porque se
+sabe que como ahora tenemos claro de qué va a hacer la CD, se sabe entiende que en toda la CD se
+propicia cuarentida o está ahí, y de morra. En el caso de que las personas en la CD no tuviesen, por
+ejemplo esa aventura o se pierden a algún punto ciego de la Universidad, que creo que no sé si hay,
+pero podría haberlo. En este caso deberíamos recurrir a algo offline, en este caso como de poder
+guardar no sé si les saqué las perrenas, pero no existe. Y como guardar los datos, o solamente
+dejarlo como musacicia que salga. Se va a ser más allá, digamos así como para que se envían el
+servidor de que nos haya con eso. Yo creo que hoy por hoy uno puede confiar que en general la gente
+está con conexión, este tipo de aplicación le veo sentido en el mundo urbano. No les debo sentir en
+el mundo rural, la relación de los perros con las casas de distintas. El problema acá es que en el
+mundo urbano un perro está en la jurisdicción de un perro, ocupa muchos cuadras. Entonces yo creo
+que es razonable asumir que tiene conexión, si no es con Wi-Fi es con restaurado. Pero si ustedes
+quieren hacerlo más robusto y ya hacen una modernidad offline que después improniza. Podríamos de
+hecho poner como lo que no debe incluir el servicio offline. La aplicación como muchas aplicaciones
+son pocas las que te ofrecen el servicio cuando está en los medios. Yo creo que eso es lo de la mano
+y que la de paso es que tenemos como una edita de preguntas que me va a poder vigilar la
+conversación.
+
+[00:49:55]
+¿Qué le va a hacer? No, no. No, no, no. No, no, no, no. No, no, no, no. No, no, no, no. Y bueno, me
+tengo que ir. La relación de la que hablaba antes del tema meteringálico eso, porque pensábamos, por
+ejemplo, hacer algo en especie de contacto, rápido de emergencia, antiguante que se nos hace por...
+A un perro de paso al dolor villano, si, que les camion, detecta que yo tomate quemente puedo como
+de edita, como alguna... Yo, por ejemplo, en los ejemplos que daba, tenía algunos reglinientos y
+esto era uno. Por ejemplo, en caso, hoy de desaparición, pero no, no está no vino, es como poder
+gatillar un alerto de, hoy algo elevado a este perrito que siempre viene, y que todo aquello que...
+¿Está alante? Lo tienen registrado en sus cuidados en la aplicación, le llega una consulta. Un
+usuario se pregunta, ¿por qué no habéis visto a este perrito y a un mensaje, y que entramente se
+puede abrir con una comunicación que estamos buscando este perro, porque no lo hemos podido cortar,
+o por qué pasó algo. Oye, lo están buscando porque mordió alguien, oye. Entonces, que en el fondo se
+activa como una búsqueda de emergencia, o puede ser por qué... Por cierto, la trabajaron y me
+interesan de esa información y todo el mundo se estereo, todo el mundo regalante. Entonces, ese tipo
+de requerimiento, yo creo que son las que justifican la aplicación. O sea, esto es lo hace y la
+gente lo usa porque va a ser un chuteñero y la parte de la comunicación, pero la razón por la que se
+justifica y es un bien público es más bien esta hora. ¿Cómo direccionar en esto de escena de
+emergencia? Entendiendo que gente que no se comunica por ningún razón, que es lo que pasa en la
+mayoría de las ciudades, a los vecinos, no se hablan, ni se enteran de que cuidan de mismo perro.
+Muchas veces la historia termina en que perro lo adoptó un vecino y lo vertió a la casa porque se le
+morió superro de siempre y ahora tiene espacio, y ahora, como ya no tengo mi otro perro, ahora vive
+conmigo. ¿Cómo se enteran el resto de la gente? Entonces, hasta también ahí se justifica la
+aplicación, es el sentido de que ayuda a la adopción de estos parros. Esa era un punto que también
+deberíamos... O sea, tendríamos que tocar en algún punto, porque quizás probablemente la aplicación
+nos te ha... No sé si es ir partidaria, pero no fomente derecho de la adopción. Eso queda afuera.
+Esa es una crítica que... Y por eso es bueno que la ver es una crítica que les pueda hacer. La
+crítica siempre va a surgir una activista que... Ya les di el ejemplo de la activista que dice,
+«Vaya estando haciendo nada, se atro los perros porque nos van a eliminar». Y otro, un poco más
+centrado les va a decir algo que tiene sentido. Están validando la precarización de la vida del
+perro en situación de calle. Cosa que es razonable entender así, uno puede responder el término de
+una, la vida del perro, la calle ya es precaria. No es ni más ni más precaria. Y la aplicación puede
+tener funcionalidades que apunten a favorecer la adopción. Oye, este perrito lo cuida, está
+desparacitado. En el fondo lo pueden llevar a su casa, porque tiene un historial de buen
+comportamiento. Por otro lado, el perrito es que no van a ser todos y que esta aplicación va a
+permitir que gente les cuide con un poco más información que como lo está haciendo. Dudo que hay un
+escenario donde el perro salga perjudicado. De hecho, va a salir más perjudicado, ¿sí? Que no se
+hace buena conexión. Claro, si estuviera en un mundo donde pueden elegir entre que todos los perros
+son adoptados y viven en el patio de una casa. O un mundo en el cual funcionan un poco más con esta
+aplicación. Yo elegiría el primero, yo elegiría el perro final adoptado. Pero como esa afecta no
+está en la barilla. Bueno, pero sí, esa crítica se las van a ser. Fíjense lo que también es súper
+legítimo. Ustedes muy bien podrían decir en realidad. Yo prefiero no, yo sé de los que crea y que
+los perros tienen que tener chí y que tienen que vivir en estas condiciones. En este caso, esta
+aplicación no apunta bien. Pero puede tener quino hacia la adopción que creo que es importante
+clústico. No se va a poner alguna conectividad con algún refono. Claro, para gestionar la adopción,
+digamos. ¿Y quieres adoptar este perrito? O sea, como lo hubo un aviso de decirlo. Mira, lo que yo
+pensaría en este caso es que en la interfaz de la aplicación, como si yo asoció un perro, me estoy
+comunicando a otras personas que también lo cuidan. ¿Qué existe un mecanismo ahí declarado?
+
+[00:54:54]
+Para decir, declarar el internet por adoptar el perro, donde un vecino puede decir, vecinos, que el
+informar, a todos los que siguen en este perrito, que tengo la oportunidad de atraerme la obra a mi
+casa. Y le voy a dar esto. Entonces, por último, en fondo, dejar esa comunicación explícita y que
+hay un botón para hacerla. Entonces... Cada perro... Cada perro es una página con un chat. Y en el
+fondo, lo que la gente hace es suscribirse a la página. Pero la única forma que la gente puede hacer
+es... Tomando el registro y un equipo de que esté un perro, un equipo de perro con ella, porque
+ustedes hay un aya, ahí también hay que pensar quién va a ser cuando se equivoque la ya y por
+ejemplo es el mismo perro, glonado, cuando hay identificado en mi report, luego lo tengo bajado con
+muy poca luz y no lo susto. ¿Caso tu uso? En ese caso, habrá una funcionalidad para hacer un match o
+de repente, oye, ¿no? En realidad, siempre fue lo primero. No vas a ser un identico. Claro, voy
+también para pasar. Y ahí yo, ahora yo pensando que es mismo perro y que comen en 20 lugares y en
+realidad no. Ahí está rocada. Lo que son sobreparecidos, el ramón con... Yo... Yo probaría ahí si se
+les puede identificar por alguna manera con ¿qué nivel de confianza? A lo mejor la tecnología no
+está madura, pero... Oye, sí, basta con que la persona identifique, le muestro los fotos de los
+perros, y identifique también pasa. La última cosa que yo hiciste hacer y más que nada, como... como
+sistemas, quiere decir, sabría como darnos como una especificación de alguna tecnología que esté en
+la llamaridad, la atención, como para poder hacer cosas... No, es lo que ya les deje a las coste. La
+última vez que pensé que así, muy rápidamente, ni esto de la huella digital del perro que es la
+nariz, y yo exploraría eso. Si hay un módulo que ya esté disponible, ojo que perfectamente si
+ustedes descubren que... Sí, pero nadie lo ha hecho, ustedes pueden transformar el proyecto en eso.
+Y su su aplicación lo único que hace es... ¿Quién reconoció? Túbamos a hacer el match y todo el
+foto, eso ya es un lombro, si es el entonces que no existe. Pero ahí estarían dejando de lado... La
+coordinación como... La coordinación posterior. Pero... el proyecto es lo subjeto en templo. A mí lo
+que soy, como gustaría explorar eso, pero yo lo voy a hacer. Entonces, porque por todo lo que pasa.
+Entonces, yo lo vendré y investigar si eso es particular. El día. En lo demás, usaría web de
+analogía obesos, lo vendría en la nube... ¿Quién reconoció el plato? Yo creo que sí. Perfecto de la
+aplicación en sí, la aplicación web. Claro, o sea, el fondo ahí lo daían visto en desarrollo de
+aplicaciones móviles. Ocen eso. ¿Quién está en desarrollo? Nadie. Nadie. Está bien. Está bien. Al
+que algunos incriban otros cedres, pero igual no van a empezar desde ya, pero incribanse para otros
+cedres. Yo voy. Sí, no hay... No hay un articulado como tú ustedes. Articulado de técnico? No.
+Porque ellos también tienen... Bueno, para tener que aprender a aplicación en móviles, salvo que
+deciden hacer lo más... Bueno, en el final del tema de la sacafotito, a veces es mucho más fácil. Es
+una revelación. Sí, por eso, yo por eso lo veo con la aplicación web, porque ahí al tiro, tomé el
+cortón de la cada amarillo. Vale. Ahora, todo abrata. Sí, sí. Si ven que el tema de la
+identificación del perro, todavía no está resuelto y ustedes se abocan a resolver eso. También me
+hago un tema, y lo pueden... Pueden articular, pueden hacer menos funcionalidades alrededor. Por
+eso, pero ¿por qué es la reportar? ¿Qué ves? Por primera vez, este paro se lo pone un número, por
+eso, acerca a la cámara a la nariz. Lo que va a haber que hacer es que ya existen, para decir que
+efectivamente, la nariz funciona como su vía vegetal. ¿Qué funciona? Por eso, la nariz estallamos
+bien. Ya, sí. Y al corredor de ellos construyan un sistema que permita organizar la lleno muy
+rápido. Sí. Y lo que hace ese modo, lo es el fondo de ofrecer el ID del perro. Sí. No, no, no, no.
+Super. Nos vemos. ¡Ya!
+
